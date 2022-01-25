@@ -1,0 +1,10 @@
+<h1> hello dashboard</h1>
+
+welcome to dashboard<br>
+{{msg}}<br>
+{{request.user}}
+
+<form method="post">
+    {% csrf_token %}
+    <input type="submit" class="btn" value="Logout"></br>
+</form>
